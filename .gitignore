@@ -1,5 +1,4 @@
 # Environment and secrets
-.env
 .env_dev
 
 # Database
@@ -39,3 +38,4 @@ AGENTS.md
 tasks.md
 .omo/
 .commandcode/
+config.bat

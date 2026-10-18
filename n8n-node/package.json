@@ -19,7 +19,7 @@
   },
   "main": "dist/nodes/Quickly/Quickly.node.js",
   "scripts": {
-    "build": "tsc -p tsconfig.json",
+    "build": "node init && tsc -p tsconfig.json",
     "watch": "tsc -p tsconfig.json --watch",
     "lint": "eslint nodes credentials --ext .ts || true"
   },
